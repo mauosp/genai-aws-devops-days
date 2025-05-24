@@ -11,15 +11,11 @@ Incluye:
 
 ## 📁 Estructura del proyecto
 
-project/
-│
-├── scripts/
-│ └── train.py # Script de entrenamiento que corre dentro de SageMaker
-│
-├── launch_training.py # Lanza el entrenamiento desde tu máquina o Jupyter
-├── deploy_model.py # Despliega el modelo (preentrenado o fine-tuneado)
-├── interact_with_model.py # Probar IA usando endpoint de SageMaker
-├── README.md # Este archivo
+- scripts/train.py # Script de entrenamiento que corre dentro de SageMaker
+- launch_training.py # Lanza el entrenamiento desde tu máquina o Jupyter
+- deploy_model.py # Despliega el modelo (preentrenado o fine-tuneado)
+- interact_with_model.py # Probar IA usando endpoint de SageMaker
+- README.md # Este archivo
 
 
 ---
